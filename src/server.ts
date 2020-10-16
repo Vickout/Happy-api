@@ -10,6 +10,7 @@ import './database/connection';
 import errorHandler from './errors/handler';
 
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 app.use(routes);
