@@ -8,15 +8,18 @@ export default class Orphanage {
 
     @Column()
     name: string;
-
+    
     @Column()
     latitude: number;
-
+    
     @Column()
     longitude: number;
-
+    
     @Column()
     about: string;
+
+    @Column()
+    whatsapp: number;
 
     @Column()
     instructions: string;
